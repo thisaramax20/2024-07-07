@@ -65,6 +65,8 @@ h3{
     border-radius: 5px;
     border-style: none;
     box-shadow: 10px;
+    border: 2px solid transparent;
+    
 }
 
 .btnRefresh{
