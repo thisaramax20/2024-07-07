@@ -15,7 +15,7 @@ let tblBody = `<tr>
     fetch("https://restcountries.com/v3.1/all").then((res)=>res.json()).then(data=>{
         data.forEach(element => {
             tblBody += `<tr>
-                            <td>${element.flag}</td>
+                            <td><img width="50px" height=30px src=${element.flags.png}></td>
                             <td>${element.name.common}</td>
                             <td>${element.capital}</td>
                             <td>${element.population}</td>
