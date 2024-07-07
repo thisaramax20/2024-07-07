@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styes.css">
+    
+</head>
+<body>
+    
+    <h1 class="text-center m-2 p-2">Details of Countries</h1>
+
+    <h3>Search by Country</h3>
+
+    <div class="searchClass">
+
+        <input type="text" id="searchItem">
+        <input id="btnSearch" type="button" value="Search" onclick="searchData()">
+    </div>
+
+    <div class="fetchSearch">
+        <p id="nameTitle">Name</p> <p id="name"></p> <br>
+        <p id="capitalTitle">Capital</p> <p id="capital"></p>
+        <p id="popTitle">Population</p> <p id="population"></p>
+        <p id="flagTitle">Flag</p> <img id="flag" width="80px" height="50px" src="" alt="">
+    </div>
+
+
+    <h3>List all countries</h3>
+
+    <div class="btnRefresh">
+        <input id="idRefresh" type="button" value="Refresh" onclick="fillAll()">
+    </div>
+
+    <div class="">
+    <table id="tblCountries">
+        
+
+        
+    </table>
+
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
